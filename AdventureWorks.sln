@@ -5,7 +5,13 @@ VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdventureWorks.Domain", "AdventureWorks.Domain\AdventureWorks.Domain.csproj", "{54CCC01E-074C-408E-934F-670376B35043}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventureWorks.Api", "AdventureWorks.Api\AdventureWorks.Api.csproj", "{31E341C5-EB1F-49D9-95D2-70F4FC610160}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdventureWorks.Api", "AdventureWorks.Api\AdventureWorks.Api.csproj", "{31E341C5-EB1F-49D9-95D2-70F4FC610160}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventureWorks.Server", "AdventureWorks.Blazor\AdventureWorks\Server\AdventureWorks.Server.csproj", "{2D3BCE3E-F86B-46F2-9D6F-70339FE3ED80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventureWorks.Client", "AdventureWorks.Blazor\AdventureWorks\Client\AdventureWorks.Client.csproj", "{1B5F8B4E-B697-45E6-B3CB-D29697CF6DA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventureWorks.Shared", "AdventureWorks.Blazor\AdventureWorks\Shared\AdventureWorks.Shared.csproj", "{C2EA6D91-6941-41D8-B79B-031A79E938BA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +27,18 @@ Global
 		{31E341C5-EB1F-49D9-95D2-70F4FC610160}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{31E341C5-EB1F-49D9-95D2-70F4FC610160}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{31E341C5-EB1F-49D9-95D2-70F4FC610160}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D3BCE3E-F86B-46F2-9D6F-70339FE3ED80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D3BCE3E-F86B-46F2-9D6F-70339FE3ED80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D3BCE3E-F86B-46F2-9D6F-70339FE3ED80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D3BCE3E-F86B-46F2-9D6F-70339FE3ED80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B5F8B4E-B697-45E6-B3CB-D29697CF6DA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B5F8B4E-B697-45E6-B3CB-D29697CF6DA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B5F8B4E-B697-45E6-B3CB-D29697CF6DA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B5F8B4E-B697-45E6-B3CB-D29697CF6DA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2EA6D91-6941-41D8-B79B-031A79E938BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2EA6D91-6941-41D8-B79B-031A79E938BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2EA6D91-6941-41D8-B79B-031A79E938BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2EA6D91-6941-41D8-B79B-031A79E938BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

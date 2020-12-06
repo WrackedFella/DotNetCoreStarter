@@ -41,6 +41,10 @@ namespace AdventureWorks.Domain.Core
         }
 
         public int CompareTo(object other) => this.Value.CompareTo(((TypeSafeEnum)other).Value);
-        
+
+        public override int GetHashCode()
+        {
+            return HashCode.Combine(Value, Name);
+        }
     }
 }
